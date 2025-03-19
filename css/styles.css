@@ -7,14 +7,36 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 img {
   display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -80,12 +102,24 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
-  cursor: pointer;
 }
 
 .section-one-button:hover,
 .section-one-button:focus {
   background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset (100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-two-title {
