@@ -159,17 +159,9 @@ img {
   background-color: #404bbf;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset (100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.section-two {
+  align-items: center;
+  padding: 120px 0;
 }
 
 .section-two-title {
@@ -186,6 +178,33 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset (100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-two-li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-three {
