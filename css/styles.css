@@ -197,6 +197,8 @@ img {
 
 .section-three {
   background-color: #f4f4fd;
+  align-items: center;
+  padding: 120px 0;
 }
 
 .section-three-title {
@@ -207,12 +209,33 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
-.section-three-hero {
+.section-three-hero-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-three-hero-li {
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 
+.section-three-hero-info {
+  text-align: center;
+  gap: 8px;
+  padding: 32px 0;
+}
 .section-three-hero-name {
   font-weight: 500;
   font-size: 20px;
